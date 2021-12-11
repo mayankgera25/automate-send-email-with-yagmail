@@ -7,8 +7,8 @@ receiver = 'abc2@gmail.com'
 subject = "This is the subject"
 
 contents ="""
-Here is the content of the email!
 Hi!
+Here is the content of the email!
 """
 sender_password = input(f'Please enter the password for {sender}: \n')
 yag = yagmail.SMTP(user=sender, password=sender_password)
